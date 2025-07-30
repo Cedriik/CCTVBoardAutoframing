@@ -8,9 +8,8 @@ These scripts are based on work by [EdjeElectronics](https://github.com/EdjeElec
 
 ## Few bits of option before continuing (for those who isn't techy)
 - **Run this program for automatic setup** (`setup_and_run.sh`): Automatically installs and runs the program for you without needing to setup manually
-- **Run this program if you already set up beforehand** (`run.sh`): Automatically installs and runs the program for you without needing to setup manually
-- 
-- **Run this program if you only want to download without running** (`setup.sh`): Automatically installs and runs the program for you without needing to setup manually
+- **Run this program if you already set up beforehand** (`run.sh`): Automatically runs the program for you without needing to setup manually
+- **Run this program if you only want to download without running** (`setup.sh`): Automatically installs the program for you without needing to setup manually
 ## Features
 
 - **General Object Detection** (`test_yolo.py`): Detect and display all objects from COCO dataset
