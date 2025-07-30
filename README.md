@@ -6,6 +6,11 @@ This repository contains a collection of Python scripts for object detection usi
 
 These scripts are based on work by [EdjeElectronics](https://github.com/EdjeElectronics), who has created excellent tutorials and examples for implementing object detection on various platforms. The original concepts have been adapted and extended for this project.
 
+## Few bits of option before continuing (for those who isn't techy)
+- **Run this program for automatic setup** (`setup_and_run.sh`): Automatically installs and runs the program for you without needing to setup manually
+- **Run this program if you already set up beforehand** (`run.sh`): Automatically installs and runs the program for you without needing to setup manually
+- 
+- **Run this program if you only want to download without running** (`setup.sh`): Automatically installs and runs the program for you without needing to setup manually
 ## Features
 
 - **General Object Detection** (`test_yolo.py`): Detect and display all objects from COCO dataset
@@ -46,9 +51,9 @@ These scripts are based on work by [EdjeElectronics](https://github.com/EdjeElec
    pip install -r requirements.txt
    ```
 
-4. Run the setup script (optional):
+4. Run the setup script (if u lazy):
    ```
-   bash setup.sh
+   bash setup_and_run.sh
    ```
 
 ## Usage
@@ -94,23 +99,6 @@ python dual_camera_yolo.py --source1 rtsp://camera1_url --source2 rtsp://camera2
 # Use USB cameras
 python dual_camera_yolo.py --source1 0 --source2 1
 ```
-
-## Setting up RTSP Streams for Testing
-
-### Using VLC for Local Testing
-
-You can create a local RTSP stream using VLC for testing:
-
-1. Open VLC
-2. Go to Media > Stream
-3. Add your video file
-4. Click "Stream"
-5. Choose RTSP as the protocol
-6. Set path as "/video"
-7. Set port to 8554
-8. Start streaming
-
-Your stream will be available at `rtsp://127.0.0.1:8554/video`
 
 ## Key Controls
 
