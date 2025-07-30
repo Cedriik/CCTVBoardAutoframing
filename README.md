@@ -35,8 +35,8 @@ These scripts are based on work by [EdjeElectronics](https://github.com/EdjeElec
 
 1. Clone this repository:
    ```
-   git clone https://github.com/Kei-002/yolo-detection.git
-   cd yolo-detection
+   git clone https://github.com/Cedriik/CCTVBoardAutoframing.git
+   cd CCTVBoardAutoframing
    ```
 
 2. Create a virtual environment (recommended):
