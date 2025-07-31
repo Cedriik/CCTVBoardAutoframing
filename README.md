@@ -1,4 +1,4 @@
-# YOLO-based Video Detection System
+# YOLO-based Video Detection System using Raspberry Pi 4B
 
 This repository contains a collection of Python scripts for object detection using YOLO (You Only Look Once) models on various video sources including RTSP streams, video files, and USB cameras.
 
@@ -6,7 +6,7 @@ This repository contains a collection of Python scripts for object detection usi
 
 These scripts are based on work by [EdjeElectronics](https://github.com/EdjeElectronics), who has created excellent tutorials and examples for implementing object detection on various platforms. The original concepts have been adapted and extended for this project.
 
-## Few bits of option before continuing (for those who isn't techy)
+## Few bits of option before continuing (for those who isn't techy and using Raspberry Pi)
 - **Run this program for automatic setup** (`setup_and_run.sh`): Automatically installs and runs the program for you without needing to setup manually
 - **Run this program if you already set up beforehand** (`run.sh`): Automatically runs the program for you without needing to setup manually
 - **Run this program if you only want to download without running** (`setup.sh`): Automatically installs the program for you without needing to setup manually
