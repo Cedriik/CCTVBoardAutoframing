@@ -50,7 +50,7 @@ These scripts are based on work by [EdjeElectronics](https://github.com/EdjeElec
    pip install -r requirements.txt
    ```
 
-4. Run the setup script (if u lazy):
+4. Run the setup script on Raspberry Pi(if u lazy):
    ```
    bash setup_and_run.sh
    ```
